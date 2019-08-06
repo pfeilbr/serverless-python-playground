@@ -32,6 +32,10 @@ pip install numpy
 # save dependencies
 pip freeze > requirements.txt
 cat requirements.txt
+
+# install dependencies (don't need to execute if starting from scratch)
+pip install -r requirements.txt
+
 python handler.py
 npm init --force
 
